@@ -1,0 +1,294 @@
+/* ==================== COMPONENTS ==================== */
+
+/* ==================== BUTTONS ==================== */
+.btn {
+display: inline-block;
+padding: 0.75rem 1.5rem;
+background-color: var(--primary);
+color: var(--primary-contrast);
+text-decoration: none;
+border-radius: 5px;
+transition: all var(--transition-fast);
+border: none;
+cursor: pointer;
+font-size: 1rem;
+font-weight: 500;
+}
+
+.btn:hover {
+filter: brightness(0.85);
+transform: translateY(-2px);
+}
+
+.btn-secondary {
+  background-color: var(--secondary);
+  color: var(--primary-contrast);
+}
+
+.btn-secondary:hover {
+  filter: brightness(0.85);
+}
+
+/* ==================== CARDS ==================== */
+.card {
+  background: var(--card-bg);
+  color: var(--text);
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: var(--shadow-md);
+}
+
+/* Feature Cards */
+.feature-card {
+  background: var(--card-bg);
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: var(--shadow-md);
+  text-align: center;
+  transition: transform var(--transition-fast);
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+}
+
+.feature-card h3 {
+  color: var(--primary);
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+/* Project Cards */
+.project-card {
+  background: var(--card-bg);
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: var(--shadow-md);
+  transition: transform var(--transition-fast), box-shadow var(--transition-fast);
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-lg);
+}
+
+/* Featured Card */
+.featured-card {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  align-items: center;
+  background: var(--card-bg);
+  padding: 3rem;
+  border-radius: 15px;
+  box-shadow: var(--shadow-lg);
+}
+
+/* Experience/Contact Item Cards */
+.experience-item,
+.contact-item {
+  margin-bottom: 1.5rem;
+  padding: 1.5rem;
+  background: var(--card-bg);
+  border-radius: 10px;
+  box-shadow: var(--shadow-sm);
+}
+
+.experience-item h3,
+.contact-item h3 {
+  color: var(--primary);
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+}
+
+.contact-item p {
+  margin: 0;
+  font-weight: 500;
+}
+
+/* Skills Card */
+.about-skills {
+  background: var(--card-bg);
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: var(--shadow-sm);
+  height: fit-content;
+}
+
+.about-skills h2 {
+  color: var(--text);
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+/* ==================== FORMS ==================== */
+.contact-form-container {
+  background: var(--card-bg);
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: var(--shadow-md);
+  height: fit-content;
+}
+
+.contact-form h2 {
+  color: var(--text);
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: var(--text);
+  font-weight: 600;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 2px solid rgba(255,255,255,0.06);
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: border-color var(--transition-fast);
+  background: transparent;
+  color: var(--text);
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: var(--primary);
+}
+
+.form-group input:disabled,
+.form-group textarea:disabled {
+  background-color: rgba(255,255,255,0.02);
+  cursor: not-allowed;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 1rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.submit-btn:disabled {
+  background-color: var(--secondary);
+  cursor: not-allowed;
+}
+
+.success-message {
+  background: #d4edda;
+  color: #155724;
+  padding: 1rem;
+  border-radius: 5px;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+/* ==================== TAGS ==================== */
+.tech-tag {
+  background: rgba(255,255,255,0.06);
+  color: var(--text);
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.technologies {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+/* ==================== SOCIAL LINKS ==================== */
+.social-button {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background: var(--primary);
+  color: var(--primary-contrast);
+  text-decoration: none;
+  border-radius: 25px;
+  transition: all var(--transition-fast);
+  font-weight: 500;
+}
+
+.social-button:hover {
+  filter: brightness(0.95);
+  transform: translateY(-2px);
+}
+
+.social-buttons {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+/* ==================== PLACEHOLDER IMAGES ==================== */
+.placeholder-image {
+  background: linear-gradient(135deg, var(--primary), var(--accent));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--primary-contrast);
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.placeholder-avatar {
+  width: 200px;
+  height: 200px;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 4rem;
+  font-weight: bold;
+  color: white;
+  backdrop-filter: blur(10px);
+  border: 2px solid rgba(255, 255, 255, 0.12);
+}
+
+/* ==================== SKILLS ==================== */
+.skill-item {
+  margin-bottom: 1.5rem;
+}
+
+.skill-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+
+.skill-name {
+  font-weight: 600;
+  color: var(--text);
+}
+
+.skill-percentage {
+  color: var(--primary);
+  font-weight: 600;
+}
+
+.skill-bar {
+  height: 8px;
+  background-color: rgba(255,255,255,0.06);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.skill-progress {
+  height: 100%;
+  background: linear-gradient(90deg, var(--primary), var(--accent));
+  border-radius: 4px;
+  transition: width var(--transition-slow);
+}

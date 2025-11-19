@@ -1,0 +1,72 @@
+/* Layout Styles */
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+/* Section Spacing */
+section {
+  padding: 4rem 0;
+}
+
+/* Hero Sections */
+.hero,
+.about-hero,
+.contact-hero,
+.projects-hero {
+  background: var(--bg-gradient-hero);
+  color: var(--hero-text);
+  padding: 4rem 0;
+  text-align: center;
+}
+
+.hero h1,
+.about-hero h1,
+.contact-hero h1,
+.projects-hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: white;
+}
+
+.lead {
+  font-size: 1.3rem;
+  opacity: 0.9;
+}
+
+/* Content Sections */
+.about-content,
+.contact-content {
+  padding: 4rem 0;
+}
+
+/* Grid Layouts */
+.about-grid,
+.contact-grid {
+  display: grid;
+  gap: 4rem;
+}
+
+.about-grid {
+  grid-template-columns: 2fr 1fr;
+}
+
+.contact-grid {
+  grid-template-columns: 1fr 1fr;
+}
+
+.features-grid,
+.projects-grid {
+  display: grid;
+  gap: 2rem;
+}
+
+.features-grid {
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.projects-grid {
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+}
