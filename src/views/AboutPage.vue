@@ -7,10 +7,15 @@
       <div class="section">
         <h1 class="section-title">About Me</h1>
         <div class="card" style="max-width: 800px; margin: 0 auto;">
-          <h2>Alexandru Gabi</h2>
+          <h2>Constantinescu Alexandru-Gabi</h2>
           <p>I'm a game developer passionate about creating engaging and immersive experiences.</p>
           <h3>Skills</h3>
           <p>Unity, C#, Game Design, Level Design</p>
+          <h3>Work Experience</h3>
+          <p>
+            Worked on web-based casino games using Pixi.js, an inhouse Framework and Editor.
+            For more info check out my <a href="https://www.linkedin.com/in/constantinescu-alexandru-gabi-315290160" target="_blank" rel="noopener noreferrer">LinkedIn profile</a>.
+          </p>
         </div>
       </div>
     </div>
