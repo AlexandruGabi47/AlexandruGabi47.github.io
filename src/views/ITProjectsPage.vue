@@ -18,6 +18,19 @@
               <a href="https://raventhinkerer.itch.io/cyber-survivor">Cyber Survivor by RavenThinkerer</a>
             </iframe>
           </div>
+          <div style="margin-top: var(--spacing-sm);">
+            A top-down cyberpunk shooter made in Unity. Survive waves of enemies and upgrade your character!
+          </div>
+          <div style="margin-top: var(--spacing-sm);">
+            <strong>Technologies used:</strong> Unity, C#
+          </div>
+          <div style="margin-top: var(--spacing-sm);">
+            <strong>Status:</strong> In Development, prototyping stage
+          </div>
+          <div style="margin-top: var(--spacing-md); display: flex; gap: var(--spacing-sm); justify-content: center;">
+            <a href="https://raventhinkerer.itch.io/cyber-survivor" target="_blank" rel="noopener noreferrer" class="btn">Play on Itch.io</a>
+            <a href="https://github.com/AlexandruGabi47/Cyber_Survivor" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">View on GitHub</a>
+          </div>
         </div>
       </div>
     </div>
