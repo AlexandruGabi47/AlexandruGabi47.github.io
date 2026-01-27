@@ -18,6 +18,8 @@
           Contact me if you're interested in collaborating or learning more about my voice acting skills.
           <br />
           I have some demo reels available upon request.
+          <br /> <br />
+          <strong>Casting Call Club Profile:</strong> <a href="https://www.castingcall.club/xandergabe" target="_blank" rel="noopener noreferrer">View Profile</a>
         </h3>
 
       </div>

@@ -10,11 +10,11 @@
           <h2>Constantinescu Alexandru-Gabi</h2>
           <p>I'm a game developer passionate about creating engaging and immersive experiences.</p>
           <h3>Skills</h3>
-          <p>Unity, C#, Game Design, Level Design</p>
+          <p>C#, Unity, Typescript</p>
           <h3>Work Experience</h3>
           <p>
             Worked on web-based casino games using Pixi.js, an inhouse Framework and Editor.
-            For more info check out my <a href="https://www.linkedin.com/in/constantinescu-alexandru-gabi-315290160" target="_blank" rel="noopener noreferrer">LinkedIn profile</a>.
+            For more info about my work experience check out my <a href="https://www.linkedin.com/in/constantinescu-alexandru-gabi-315290160" target="_blank" rel="noopener noreferrer">LinkedIn profile</a>.
           </p>
         </div>
       </div>
