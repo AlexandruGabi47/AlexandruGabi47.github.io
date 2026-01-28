@@ -18,16 +18,16 @@
               <a href="https://raventhinkerer.itch.io/cyber-survivor">Cyber Survivor by RavenThinkerer</a>
             </iframe>
           </div>
-          <div style="margin-top: var(--spacing-sm);">
+          <div style="margin-top: var(--spacing-s);">
             A top-down cyberpunk shooter made in Unity. Survive waves of enemies and upgrade your character!
           </div>
-          <div style="margin-top: var(--spacing-sm);">
+          <div style="margin-top: var(--spacing-s);">
             <strong>Technologies used:</strong> Unity, C#
           </div>
-          <div style="margin-top: var(--spacing-sm);">
+          <div style="margin-top: var(--spacing-s);">
             <strong>Status:</strong> In Development, prototyping stage
           </div>
-          <div style="margin-top: var(--spacing-md); display: flex; gap: var(--spacing-sm); justify-content: center;">
+          <div style="margin-top: var(--spacing-m); display: flex; gap: var(--spacing-s); justify-content: center;">
             <a href="https://raventhinkerer.itch.io/cyber-survivor" target="_blank" rel="noopener noreferrer" class="btn">Play on Itch.io</a>
             <a href="https://github.com/AlexandruGabi47/Cyber_Survivor" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">View on GitHub</a>
           </div>
@@ -38,5 +38,4 @@
 </template>
 
 <style scoped>
-/* Page-specific styles if needed */
 </style>

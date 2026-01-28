@@ -29,7 +29,7 @@ h2 {
 }
 
 h3 {
-  margin-top: var(--spacing-md);
+  margin-top: var(--spacing-m);
   color: var(--text);
 }
 </style>
