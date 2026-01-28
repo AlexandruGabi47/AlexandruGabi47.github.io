@@ -7,11 +7,11 @@
       <div class="section">
         <h1 class="section-title">Voice Acting Projects</h1>
         <div class="info-card">
-          <p>
+          <p align="center">
             While I'm still early in my voice acting journey with no professional projects yet, 
             I'm deeply passionate about bringing characters to life through voice and performance. 
             I'm actively learning and honing my skills in voice modulation, character acting, and storytelling. 
-            I love experimenting with different voices and sounds and exploring the art of vocal expression.
+            I love experimenting with different voices, sounds and impressions.
           </p>
         </div>
         <h3 align="center">
@@ -28,5 +28,4 @@
 </template>
 
 <style scoped>
-/* Page-specific styles if needed */
 </style>

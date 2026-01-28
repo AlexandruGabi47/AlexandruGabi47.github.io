@@ -6,8 +6,8 @@
   --text-muted: #666666;
   --primary: #0066cc;
   --primary-hover: #0052a3;
-  --border: #e0e0e0;
-  --card-bg: #f8f9fa;
+  --border: #8f8f8f;
+  --card-bg: #b1b1b1;
   --nav-bg: #ffffff;
   --footer-bg: #f8f9fa;
   
@@ -24,6 +24,9 @@
   
   /* Transitions */
   --transition: 0.3s ease;
+  --transition-pages: 0.3s ease-in-out;
+  --left-transition-distance: -30px;
+  --right-transition-distance: 30px;
   
   /* Shadows */
   --shadow: 0 2px 8px rgba(0, 0, 0, 0.1);

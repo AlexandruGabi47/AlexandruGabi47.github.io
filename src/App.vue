@@ -1,14 +1,24 @@
 <script setup lang="ts">
-import { RouterLink, RouterView } from 'vue-router'
+import { RouterLink, RouterView, useRouter } from 'vue-router'
 import { ref, onMounted } from 'vue'
 
 const theme = ref<'light' | 'dark'>('light')
+const direction = ref<'forward' | 'backward'>('forward')
+const router = useRouter()
 
 function toggleTheme() {
   theme.value = theme.value === 'dark' ? 'light' : 'dark'
   document.documentElement.setAttribute('data-theme', theme.value)
   localStorage.setItem('theme', theme.value)
 }
+
+router.beforeEach((to, from) => {
+  const routes = ['/', '/about', '/it-projects', '/va-projects', '/contact']
+  const fromIndex = routes.indexOf(from.path)
+  const toIndex = routes.indexOf(to.path)
+  
+  direction.value = toIndex > fromIndex ? 'forward' : 'backward'
+})
 
 onMounted(() => {
   const stored = localStorage.getItem('theme') as 'light' | 'dark' | null
@@ -45,7 +55,9 @@ onMounted(() => {
       </div>
     </nav>
 
-    <RouterView />
+    <Transition :name="`woosh-${direction}`" mode="out-in">
+      <RouterView :key="$route.fullPath" />
+    </Transition>
 
     <footer>
       <p>&copy; 2025 Alexandru Gabi</p>
@@ -54,5 +66,4 @@ onMounted(() => {
 </template>
 
 <style scoped>
-/* App-specific styles only - rest is in global CSS */
 </style>

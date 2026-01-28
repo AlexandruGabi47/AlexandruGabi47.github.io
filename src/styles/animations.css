@@ -1,0 +1,31 @@
+/* Forward animation (left to right) */
+.woosh-forward-enter-active,
+.woosh-forward-leave-active {
+  transition: var(--transition-pages);
+}
+
+.woosh-forward-enter-from {
+  opacity: 0;
+  transform: translateX(var(--right-transition-distance));
+}
+
+.woosh-forward-leave-to {
+  opacity: 0;
+  transform: translateX(var(--left-transition-distance));
+}
+
+/* Backward animation (right to left) */
+.woosh-backward-enter-active,
+.woosh-backward-leave-active {
+  transition: var(--transition-pages);
+}
+
+.woosh-backward-enter-from {
+  opacity: 0;
+  transform: translateX(var(--left-transition-distance));
+}
+
+.woosh-backward-leave-to {
+  opacity: 0;
+  transform: translateX(var(--right-transition-distance));
+}

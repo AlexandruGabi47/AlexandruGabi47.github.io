@@ -13,7 +13,7 @@
           <p>C#, Unity, Typescript</p>
           <h3>Work Experience</h3>
           <p>
-            Worked on web-based casino games using Pixi.js, an inhouse Framework and Editor.
+            Worked on web-based casino games for over 7 years using Pixi.js, an inhouse Framework and Editor.
             For more info about my work experience check out my <a href="https://www.linkedin.com/in/constantinescu-alexandru-gabi-315290160" target="_blank" rel="noopener noreferrer">LinkedIn profile</a>.
           </p>
         </div>
