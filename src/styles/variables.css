@@ -6,8 +6,8 @@
   --text-muted: #666666;
   --primary: #0066cc;
   --primary-hover: #0052a3;
-  --border: #8f8f8f;
-  --card-bg: #b1b1b1;
+  --border: #ccd3df;
+  --card-bg: #f4f5f7;
   --nav-bg: #ffffff;
   --footer-bg: #f8f9fa;
   
@@ -29,8 +29,8 @@
   --right-transition-distance: 30px;
   
   /* Shadows */
-  --shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  --shadow-lg: 0 4px 16px rgba(0, 0, 0, 0.15);
+  --shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  --shadow-lg: 0 4px 16px rgba(0, 0, 0, 0.3);
 }
 
 /* Dark Theme */
